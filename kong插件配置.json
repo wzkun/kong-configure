@@ -1,0 +1,130 @@
+{
+  "next": null,
+  "data": [
+    {
+      "created_at": 1589892265,
+      "config": {
+        "secret": "yld1Ju4owWLoFujqmUUdaHQMOEd11XmOJEXYaxeLKFEf",
+        "logout_post_arg": "session_logout",
+        "logout_query_arg": "session_logout",
+        "cookie_name": "session",
+        "storage": "kong",
+        "cookie_renew": 600,
+        "logout_methods": [
+          "POST",
+          "DELETE"
+        ],
+        "cookie_domain": null,
+        "cookie_lifetime": 3600,
+        "cookie_path": "/",
+        "cookie_discard": 10,
+        "cookie_secure": true,
+        "cookie_samesite": "Strict",
+        "cookie_httponly": true
+      },
+      "id": "6aabf53d-cb24-4381-82d7-add91df633b2",
+      "service": null,
+      "enabled": true,
+      "protocols": [
+        "grpc",
+        "grpcs",
+        "http",
+        "https"
+      ],
+      "name": "session",
+      "consumer": null,
+      "route": null,
+      "tags": null
+    },
+    {
+      "created_at": 1589945473,
+      "config": {
+        "key_names": [
+          "apikey"
+        ],
+        "run_on_preflight": true,
+        "anonymous": "3203e899-aefa-4a80-a46d-2339d2667708",
+        "hide_credentials": false,
+        "key_in_body": true
+      },
+      "id": "85bac662-ef8d-480f-aec8-3c71c799849d",
+      "service": {
+        "id": "e104eaef-877a-4552-82cc-36be51478d98"
+      },
+      "enabled": true,
+      "protocols": [
+        "grpc",
+        "grpcs",
+        "http",
+        "https"
+      ],
+      "name": "key-auth",
+      "consumer": null,
+      "route": {
+        "id": "bcf623d5-9776-4da7-a08b-787d2082a96d"
+      },
+      "tags": null
+    },
+    {
+      "created_at": 1591241366,
+      "config": {
+        "methods": [
+          "GET",
+          "HEAD",
+          "PUT",
+          "PATCH",
+          "POST",
+          "DELETE",
+          "OPTIONS",
+          "TRACE",
+          "CONNECT"
+        ],
+        "exposed_headers": null,
+        "max_age": 2,
+        "headers": null,
+        "origins": [
+          "*"
+        ],
+        "credentials": true,
+        "preflight_continue": false
+      },
+      "id": "a51b6fa9-f683-42d4-aedb-f68cfd6089c6",
+      "service": null,
+      "enabled": true,
+      "protocols": [
+        "grpc",
+        "grpcs",
+        "http",
+        "https"
+      ],
+      "name": "cors",
+      "consumer": null,
+      "route": null,
+      "tags": null
+    },
+    {
+      "created_at": 1589892340,
+      "config": {
+        "status_code": 403,
+        "content_type": null,
+        "body": null,
+        "message": "Auth Error!"
+      },
+      "id": "e2bec938-2349-4dac-9670-90bd439e1491",
+      "service": null,
+      "enabled": true,
+      "protocols": [
+        "grpc",
+        "grpcs",
+        "http",
+        "https"
+      ],
+      "name": "request-termination",
+      "consumer": {
+        "id": "3203e899-aefa-4a80-a46d-2339d2667708"
+      },
+      "route": null,
+      "tags": null
+    }
+  ]
+}
