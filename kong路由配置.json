@@ -1,0 +1,451 @@
+{
+  "next": null,
+  "data": [
+    {
+      "id": "22127f60-e711-497b-97bd-6c506c9aec91",
+      "path_handling": "v0",
+      "paths": [
+        "/rbac-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1591260497,
+      "snis": null,
+      "service": {
+        "id": "329f24d2-0066-474f-bf91-caaf10007c82"
+      },
+      "name": "rbac-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752664,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "23282ddb-1162-4da0-990a-f9186693907d",
+      "path_handling": "v0",
+      "paths": [
+        "/wbs-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1591260218,
+      "snis": null,
+      "service": {
+        "id": "f3406adb-1448-45ab-8d93-c996ab31781b"
+      },
+      "name": "wbs-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752677,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "65baccaa-eb75-4652-92be-cbd78296fd17",
+      "path_handling": "v0",
+      "paths": [
+        "/ebsd-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1591260201,
+      "snis": null,
+      "service": {
+        "id": "3bd58b9c-7b76-4851-9f72-139daf843b36"
+      },
+      "name": "ebsd-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752682,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "72caffa4-2a40-4df0-ae21-cfb1086ea867",
+      "path_handling": "v0",
+      "paths": [
+        "/rainbow-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1592387295,
+      "snis": null,
+      "service": {
+        "id": "58bbce08-9406-43f8-a5da-f1de1738cd3d"
+      },
+      "name": "rainbow-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752688,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "924a879c-dfe2-43cf-9e37-15e3d91368e5",
+      "path_handling": "v0",
+      "paths": [
+        "/storage-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1591259130,
+      "snis": null,
+      "service": {
+        "id": "336c518c-0b80-4568-9b65-c692bf572d40"
+      },
+      "name": "storage",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752695,
+      "sources": null,
+      "methods": [
+        "POST",
+        "GET",
+        "DELETE",
+        "PATCH",
+        "PUT",
+        "HEAD",
+        "OPTIONS"
+      ],
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "93c57add-4d43-45aa-88cb-50613b8c76cb",
+      "path_handling": "v0",
+      "paths": [
+        "/workflow-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1597753653,
+      "snis": null,
+      "service": {
+        "id": "947fe937-be22-48ef-a46f-540d9ad237bb"
+      },
+      "name": "workflow-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597753653,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "a2b0ad74-2991-4595-9051-bb69a1f903e6",
+      "path_handling": "v0",
+      "paths": [
+        "/auth-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1597752833,
+      "snis": null,
+      "service": {
+        "id": "e104eaef-877a-4552-82cc-36be51478d98"
+      },
+      "name": "auth-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597753352,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "a8d8f23e-cd49-439b-b5a6-a601f5cbfc98",
+      "path_handling": "v0",
+      "paths": [
+        "/mdna-server2"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1592471155,
+      "snis": null,
+      "service": {
+        "id": "97c3f307-7686-4043-a1cd-041755dcddc3"
+      },
+      "name": "mdna-server2",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752701,
+      "sources": null,
+      "methods": [
+        "GET",
+        "POST",
+        "DELETE",
+        "PATCH",
+        "PUT",
+        "HEAD",
+        "OPTIONS"
+      ],
+      "https_redirect_status_code": 426,
+      "hosts": [
+        "192.168.32.127"
+      ],
+      "tags": null
+    },
+    {
+      "id": "b8504d38-90fa-432c-9348-38806eb998a6",
+      "path_handling": "v0",
+      "paths": [
+        "/"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1591679403,
+      "snis": null,
+      "service": {
+        "id": "879b71bf-5269-40e4-9c5a-5a2805d18153"
+      },
+      "name": "default",
+      "strip_path": true,
+      "preserve_host": true,
+      "regex_priority": 0,
+      "updated_at": 1597752707,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "c44670ae-9019-4af0-afa9-4e9b612845ab",
+      "path_handling": "v0",
+      "paths": [
+        "/aurora"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1597752788,
+      "snis": null,
+      "service": {
+        "id": "e104eaef-877a-4552-82cc-36be51478d98"
+      },
+      "name": "auth-none",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752788,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "dab8bf3f-074e-4fc0-855c-7f8caf5166d2",
+      "path_handling": "v0",
+      "paths": [
+        "/mdna-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1591260337,
+      "snis": null,
+      "service": {
+        "id": "cc397914-8aa9-4792-99d8-541a7e9f209a"
+      },
+      "name": "mdna-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752797,
+      "sources": null,
+      "methods": [
+        "GET",
+        "POST",
+        "DELETE",
+        "PATCH",
+        "PUT",
+        "HEAD",
+        "OPTIONS"
+      ],
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "e0b96b01-8596-4f8f-84e4-f745480de256",
+      "path_handling": "v0",
+      "paths": [
+        "/process-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1591260168,
+      "snis": null,
+      "service": {
+        "id": "0b77ebc4-dce1-4819-aa6d-8d62d40304b2"
+      },
+      "name": "process-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752804,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "f2309463-fd98-49d1-923e-386842935d23",
+      "path_handling": "v0",
+      "paths": [
+        "/expropriate-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1597753692,
+      "snis": null,
+      "service": {
+        "id": "5a52c903-adb1-4e65-95ea-81f5eb90d546"
+      },
+      "name": "expropriate-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597753692,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "f7d3b0b4-3ac1-4b93-b6c1-62961edba78e",
+      "path_handling": "v0",
+      "paths": [
+        "/rock-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1591260682,
+      "snis": null,
+      "service": {
+        "id": "4f852c0c-bb4d-4a02-8b26-ff26c8afb07f"
+      },
+      "name": "rock-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752810,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    },
+    {
+      "id": "f8c81742-28c2-4c18-a48c-4f205f54c07c",
+      "path_handling": "v0",
+      "paths": [
+        "/aurora-server"
+      ],
+      "destinations": null,
+      "headers": null,
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "created_at": 1591588966,
+      "snis": null,
+      "service": {
+        "id": "ccf962e1-a5d9-449f-9476-db31f91d80c8"
+      },
+      "name": "aurora-server",
+      "strip_path": true,
+      "preserve_host": false,
+      "regex_priority": 0,
+      "updated_at": 1597752815,
+      "sources": null,
+      "methods": null,
+      "https_redirect_status_code": 426,
+      "hosts": null,
+      "tags": null
+    }
+  ]
+}

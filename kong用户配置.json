@@ -1,0 +1,19 @@
+{
+    "next": null,
+    "data": [
+        {
+            "custom_id": "anonymous-users",
+            "created_at": 1595518836,
+            "id": "31db177d-7185-4f7b-8e18-f86f7e58d983",
+            "tags": null,
+            "username": "anonymous-users"
+        },
+        {
+            "custom_id": "auth-users",
+            "created_at": 1595518836,
+            "id": "36cf689e-6166-41df-b553-0fb86204c514",
+            "tags": null,
+            "username": "auth-users"
+        }
+    ]
+}
